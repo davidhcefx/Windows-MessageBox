@@ -5,7 +5,10 @@ A Cmd tool which utilizes the MessageBox WinAPI.
 
 1. Download the source code.
 2. Compile the file with `g++ -o MessageBox.exe WinMessageBox.cpp`.
-3. (optional) You can place the program somewhere like `C:\Users\<your name>\bin`, and then set up an environment variable. After that, you can run it simply via `messagebox` in `cmd.exe`!
+3. Place the program in somewhere like `C:\Users\<your name>\bin`, and then set up a `PATH` environment variable.
+4. After that, you can run it simply via typing `messagebox` in `cmd.exe`!
+
+*If you really do insist that you don't want to compile it by yourself, then [here](bin/MessageBox.exe) is the binary. [HIGHLY UNRECOMMENDED]*
 
 ## Usage
 
