@@ -8,7 +8,7 @@ A Cmd tool which utilizes the MessageBox WinAPI.
 3. Place the program in somewhere like `C:\Users\<your name>\bin`, and then set up a `PATH` environment variable.
 4. After that, you can run it simply via typing `messagebox` in `cmd.exe`!
 
-*If you really do insist that you don't want to compile it by yourself, then [here](bin/MessageBox.exe) is the binary. [HIGHLY UNRECOMMENDED]*
+*If you really do insist that you don't want to compile it by yourself, then [here](bin) is the binary. [HIGHLY UNRECOMMENDED]*
 
 ## Usage
 
