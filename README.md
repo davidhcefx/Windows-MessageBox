@@ -9,7 +9,7 @@ A Cmd tool which utilizes the MessageBox WinAPI.
 
 ## Usage
 
-The command line usage is as follow:
+The command line usage is as follows:
 
     Syntax: messagebox [Msg] [Title] (Button) (Icon)
             Button  =  ok | okcancel | yesno | yesnocancel (default=ok)
