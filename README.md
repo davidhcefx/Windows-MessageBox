@@ -1,5 +1,5 @@
-# Windows MessageBox in Cpp
-A Cpp wrapper of the MessageBox WinAPI.
+# Windows MessageBox for Cmd
+A Cmd tool which utilizes the MessageBox WinAPI.
 
 ## Installation
 
