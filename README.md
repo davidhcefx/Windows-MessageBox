@@ -14,7 +14,7 @@ A Cmd tool which utilizes the MessageBox WinAPI.
 
 The command line usage is as follows:
 
-    Syntax: messagebox [Msg] [Title] (Button) (Icon)
+    Syntax: messagebox [Title] [Msg] (Button) (Icon)
             Button  =  ok | okcancel | yesno | yesnocancel (default=ok)
             Icon    =  info | ques | stop | warn (default=info)
             (Multi-byte characters are not supported)
