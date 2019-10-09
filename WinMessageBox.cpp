@@ -15,7 +15,7 @@ using namespace std;
 int main(int argc, char* argv[])
 {
     if (argc < 3) {
-        cout << "Syntax: messagebox <Msg> <Title> (Button) (Icon)\n";
+        cout << "Syntax: messagebox <Title> <Msg> (Button) (Icon)\n";
         cout << "\tButton  =  ok | okcancel | yesno | yesnocancel (default=ok)\n";
         cout << "\tIcon    =  info | ques | stop | warn (default=info)\n";
         cout << "\t(Multi-byte characters are not supported)\n";
@@ -25,10 +25,10 @@ int main(int argc, char* argv[])
         // Warning: This method cannot deal with multibyte characters.
         wstringstream ss;
         ss << argv[1];
-        wstring msg = ss.str();
+        wstring title = ss.str();
         ss.clear(), ss.str(L"");
         ss << argv[2];
-        wstring title = ss.str();
+        wstring msg = ss.str();
 
         unsigned int type = 0x40;
         if (argc >= 4) {
