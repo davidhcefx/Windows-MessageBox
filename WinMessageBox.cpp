@@ -26,7 +26,8 @@ int main(int argc, char* argv[])
         wstringstream ss;
         ss << argv[1];
         wstring title = ss.str();
-        ss.clear(), ss.str(L"");
+        ss.clear();
+        ss.str(L"");
         ss << argv[2];
         wstring msg = ss.str();
 
